@@ -27,7 +27,7 @@ MAX_PAGE_SIZE = 50
 def main(argv):
   # Authenticate and construct service.
   service, config, _ = common.init(argv, __doc__)
-  merchant_id = config['merchantId']
+  merchant_id = config['8922490']
   common.check_mca(config, True)
 
   request = service.accounts().list(
